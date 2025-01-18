@@ -838,8 +838,16 @@
     color: rgba(255, 255, 255, 1);
     position: absolute;
 }
-
-
-
-
 /* ---------------- */
+@media (max-width: 768px) {
+    /* .Image_Banner1 {
+        transform: translateX(-50%);
+    } */
+
+    body {
+        transform: scale(0.216); /* Уменьшаем размер на 50% */
+        transform-origin: top left; /* Указываем точку уменьшения */
+        width: 200%; /* Увеличиваем ширину, чтобы избежать белых полей */
+    }
+
+}

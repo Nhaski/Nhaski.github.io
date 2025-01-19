@@ -841,13 +841,16 @@
 /* ---------------- */
 @media (max-width: 415px) {
     body{
-        overflow-x: hidden;
+        overflow-x: hidden !important;
         height: 100%; 
         width: 100%;
         background-color: rgba(34, 34, 34, 1);
     }
     .Wrapper{
         height: 2300px;
+        width: 100%;
+    }
+    .Content{
         width: 100%;
     }
     .Banner1{
@@ -866,6 +869,9 @@
         z-index: 4;
     }
     .Frame3821{ margin-left: -150px;}
+    .Frame3833{
+        width: 100%;
+    }
     .Frame3836{
         transform: scale(0.6); 
         transform-origin: top left; 

@@ -839,15 +839,162 @@
     position: absolute;
 }
 /* ---------------- */
-@media (max-width: 768px) {
-    /* .Image_Banner1 {
-        transform: translateX(-50%);
-    } */
-
-    body {
-        transform: scale(0.216); /* Уменьшаем размер на 50% */
-        transform-origin: top left; /* Указываем точку уменьшения */
-        width: 200%; /* Увеличиваем ширину, чтобы избежать белых полей */
+@media (max-width: 415px) {
+    body{
+        overflow-x: hidden;
+        height: 100%; 
+        background-color: rgba(34, 34, 34, 1);
     }
+    .Wrapper{
+        height: 2300px;
+        width: 414px;
+    }
+    .Banner1{
+        width: 414px;
+        height: 550px;
+    }
+    .Frame3832 {
+        position: fixed;
+        transform: scale(0.6); 
+        background-color: rgba(34, 34, 34, 1);
+        opacity: 80%;
+        padding-top: 10px;
+        padding-left: 40px;
+        left: -170px;
+        top: -15px;
+        z-index: 4;
+    }
+    .Frame3821{ margin-left: -150px;}
+    .Frame3836{
+        transform: scale(0.6); 
+        transform-origin: top left; 
+        margin-top: -150px;
+        margin-left: -100px;
+    }
+    .Image2_2{
+        transform: scale(0.5); 
+        transform-origin: top left;
+        margin-top: 50px;
+        margin-left: -1140px;
+        opacity: 60%;
+    }
+    /* -------------------------- */
+    .Frame3768{
+        width: 414px;
+        height: 50px;
+    }
+    /* -------------------------- */
+    .Frame3860{
+        display: flex;
+        width: 414px;
+        height: 920px;
+        position: relative;
+    }
+    .img3_1{
+        transform: scale(0.61); 
+        transform-origin: top left;
+        margin-left: 20px;
+    }
+    .Frame3746_1{
+        transform: scale(0.62); 
+        transform-origin: top left;
+        margin-top: 500px;
+        margin-left: -675px;
+    }
+    .img1_9{ display: none; }
+    /* -------------------------- */
+    .Form1{
+        width: 414px;
+        height: 680px;
+        flex-direction: column;
+        margin-bottom: -380px;
+        background-color: rgba(40, 40, 41, 1);
+    }
+    .Frame3763_2{
+        display: flex;
+        width: 414px;
+        height: 50px;
+    }
+    /* -------------------------- */
+    .Frame3764{
+        width: 414px;
+        height: 628px;
+        justify-content: center;
+        align-items: center;
+        transform: scale(0.5); 
+        transform-origin: top left;
+        margin-left: 45px;
+        margin-top: -20px;
+    }
+    .Frame3812{
+        width: 414px;
 
+    }
+    .Frame26{
+        width: 414px;
+    }
+    .Rectangle_5{
+        margin-top: 30px;
+        margin-left: -240px;
+        width: 810px;
+    }
+    .imgWomenHouse_Hidden{
+        display: none;
+    }
+    /* ------------------- */
+    .Form2{
+        display: flex;
+        width: 414px;
+        height: 100px;
+        background-color: rgba(40, 40, 41, 1);
+    }
+    /* ------------------- */
+    .Rectangle55,
+    .Rectangle53{
+        width: 414px;
+    }
+    .Footer{
+        width: 414px;
+    }
+    .Frame2{
+        transform: scale(0.7); 
+        transform-origin: top left;
+        color: #282829;
+        margin-top: 5px;
+        margin-left: -680px;
+    }
+    .Frame3274{
+        margin-top: 70px;
+        margin-left: -750px;
+    }
+    .WGR{
+        transform: scale(0.7); 
+        transform-origin: top left;
+        margin-top: -40px;
+        margin-left: -180px;
+    }
+    .Copyright{
+        transform: scale(0.5); 
+        transform-origin: top left;
+        margin-top: 50px;
+        margin-left: -150px;
+    }
+    .Privacy_policy{
+        transform: scale(0.5); 
+        transform-origin: top left;
+        margin-top: 50px;
+        margin-left: -730px;
+    }
+    .Terms_of_Use{
+        transform: scale(0.5); 
+        transform-origin: top left;
+        margin-top: 50px;
+        margin-left: -1280px;
+    }
+    .button_in_Slide_16_9_26{
+        transform: scale(0.5); 
+        transform-origin: top left;
+        margin-top: 30px;
+        margin-left: -1400px;
+    }
 }
